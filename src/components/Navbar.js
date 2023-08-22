@@ -37,9 +37,9 @@ function Navbar(){
         <nav className="navbar">
             <div className="container">
                 <ul className="navbar-menu">
-                    <li className="list-item" onClick={collapseNavbar}><a href="#home">Kezdőlap</a></li>
-                    <li className="list-item" onClick={collapseNavbar}><a href="#projects">Projektek</a></li>
-                    <li className="list-item" onClick={collapseNavbar}><a href="">Kapcsolat</a></li>
+                    <li className="list-item" onClick={collapseNavbar}><a href="#home">Home</a></li>
+                    <li className="list-item" onClick={collapseNavbar}><a href="#projects">Projects</a></li>
+                    <li className="list-item" onClick={collapseNavbar}><a href="">Contact</a></li>
                 </ul>
                 <h3 onClick={openNavbar} className="navbar-icon"><FontAwesomeIcon icon={faBars} /></h3>
             </div>

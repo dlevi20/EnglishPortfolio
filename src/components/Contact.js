@@ -4,7 +4,7 @@ import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-
 export default function Contact(){
     return (
         <section className="contact container" id="contact">
-            <h1 className="contact-title">Kapcsolat</h1>
+            <h1 className="contact-title">Contact</h1>
             <div className="contact-flex">
                 <div className="contact-text">
                     <div className="contact-icons">
@@ -23,9 +23,9 @@ export default function Contact(){
                     </div>
                 </div>
                 <form action="https://formsubmit.co/ph4ntomex@gmail.com" className="contact-form" method="POST">
-                    <input type="text" name="email" placeholder="Email cím" required />
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Üzenet"></textarea>
-                    <button type="submit">Küldés</button>
+                    <input type="text" name="email" placeholder="Email address" required />
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </section>

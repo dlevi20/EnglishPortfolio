@@ -9,7 +9,7 @@ import BootstrapVideo from "../videos/BootstrapVideo.mp4"
 function Projects(){
     return (
         <section className="projects container" id="projects">
-            <h1 className="projects-title">Munkáim</h1>
+            <h1 className="projects-title">My Projects</h1>
             <div className="projects-grid">
                 <div className="project">
                     <div>
@@ -21,11 +21,11 @@ function Projects(){
                         />
                         <h1 className="project-title">Greenbay</h1>
                         <p className="project-description">
-                            A Greenbay egy online marketplaces oldal, ahol olyan mindennapokban használatos funkciók is vannak, mint regisztrálás, bejelentkezés, vásárlás vagy termék meghírdetése és még számos más dolog! A weboldal backend együttműködésével készült, ugyanakkor én csak a frontenden dolgoztam!
+                            Greenbay is an online marketplace, including functions used in everyday life such as creating an account, logging in, purchasing or uploading an item for sale and more! The website is conntected to a backend, but I only worked on the frontend!
                         </p>
                     </div>
                     <div className="project-btns">
-                        <a href="https://github.com/barnaudvarhelyi/Greenbay-Webshop" className="project-btn" target="blank"><h4>Kód</h4></a>
+                        <a href="https://github.com/barnaudvarhelyi/Greenbay-Webshop" className="project-btn" target="blank"><h4>Code</h4></a>
                     </div>
                 </div>
                 <div className="project">
@@ -37,11 +37,11 @@ function Projects(){
                         overlayTransitionDuration={500}
                     />
                     <h1 className="project-title">Fitness Hub</h1>
-                    <p className="project-description">A Fitness Hub egy edzőterem weboldala, ahol a felhasználó megismerkedhet a létesítménnyel, valamint annak a szolgáltatásaival. A weboldal React és SCSS használatával készült.</p>
+                    <p className="project-description">Fitness Hub is the webpage of a gym, where the user can gather informations about the place and find out more about its services.</p>
                     </div>  
                     <div className="project-btns">
-                        <a href="https://dlevi20.github.io/FitnessHub/" className="project-btn" target="blank"><h4>Weboldal</h4></a>
-                        <a href="https://github.com/dlevi20/FitnessHub/tree/master" className="project-btn" target="blank"><h4>Kód</h4></a>
+                        <a href="https://dlevi20.github.io/FitnessHub/" className="project-btn" target="blank"><h4>Webpage</h4></a>
+                        <a href="https://github.com/dlevi20/FitnessHub/tree/master" className="project-btn" target="blank"><h4>Code</h4></a>
                     </div>
                 </div>
                 <div className="project">
@@ -53,11 +53,11 @@ function Projects(){
                             overlayTransitionDuration={500}
                         />
                         <h1 className="project-title">Debrecen Nyomda</h1>
-                        <p className="project-description">A Debrecen Nyomda egy debreceni nyomda kezdőoldala, mely Bootstrap keretrendszerben készült</p>
+                        <p className="project-description">Debrecen Nyomda is the landing page of a press company, made in Bootstrap.</p>
                     </div>
                     <div className="project-btns">
-                        <a href="https://dlevi20.github.io/Bootstrap/" className="project-btn" target="blank"><h4>Weboldal</h4></a>
-                        <a href="https://github.com/dlevi20/Bootstrap" className="project-btn" target="blank"><h4>Kód</h4></a>
+                        <a href="https://dlevi20.github.io/Bootstrap/" className="project-btn" target="blank"><h4>Webpage</h4></a>
+                        <a href="https://github.com/dlevi20/Bootstrap" className="project-btn" target="blank"><h4>Code</h4></a>
                     </div>
                 </div>
             </div>

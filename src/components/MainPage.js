@@ -20,12 +20,12 @@ function MainPage(){
                 </div>
                 <div className="text">
                     <h1 className="name">Deák Levente</h1>
-                    <h1 className="title">Junior Frontend Fejlesztő</h1>
-                    <p className="about">Kiskorom óta szeretem az informatikát, így szeretnék nem csak hobbiként, hanem karrierként is vele foglalkozni. Azért választottam a webfejlesztést, mert így az informatikán belül olyan kreatív munkát is végezhetek, mint a weboldal felépítésének vagy kinézetének a kialakítása.</p>
+                    <h1 className="title">Junior Frontend Developer</h1>
+                    <p className="about">I took interest in informatics from a young age, so I would like work with informatics not only as a hobby but also as a career. I chose web development, so I can handle creative tasks such as creating the layout or the design of the website.</p>
                 </div>
             </div>
             <div className="swiper">
-                <h4 className="swiper-title">Képességeim</h4>
+                <h4 className="swiper-title">Skills</h4>
                 <Swiper
                     spaceBetween={30}
                     slidesPerView={3}
